@@ -31,7 +31,7 @@ public class AccountServlet extends HttpServlet {
 		//把所有账户的信息存入req
 		req.setAttribute("accountList", list);
 		
-		req.getRequestDispatcher("/transfer.jsp").forward(req, resp);;
+		req.getRequestDispatcher("/transfer.jsp").forward(req, resp);
 	}
 
 	@Override
